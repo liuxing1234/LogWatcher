@@ -1,0 +1,21 @@
+{
+  "name": "Log watcher",
+  "version": "1.0",
+  "description": "日志查看插件",
+  "manifest_version": 2,
+  "icons":{
+    "16": "img/watcher.png",
+    "48": "img/watcher.png",
+    "128": "img/watcher.png"
+  },
+  "browser_action":{
+    "default_icon":"img/watcher.png",
+    "default_title":"日志查看插件",
+    "default_popup":"popup.html"
+  },
+  "background":{
+    "page":"background.html"
+  },
+  "devtools_page": "devtool.html",
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
